@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         Post post = new Post();
-        Post.name = "Иван";
-        Post.surname = "Иванов";
-        Post.patronomyc = "Иванович";
-        Post.passport = "207 316550";
-        Post.phone = "+7(912)289-30-21";
-        Post.subscription = "True";
-        post.birthday = new FormDate();
-        post.birthDay = "13";
-        post.birthMonth = "05";
-        post.birthYear = "1995";
+        post.name = "Иван";
+        post.surname = "Иванов";
+        post.patronomyc = "Иванович";
+        post.passport = "207 316550";
+        post.phone = "+7(912)289-30-21";
+        post.subscription = Boolean.parseBoolean(String.valueOf(true));
+        post.birthDay = new FormDate();
+        post.birthDay.day = 13;
+        post.birthDay.month = 05;
+        post.birthDay.year = 1995;
     }
 }

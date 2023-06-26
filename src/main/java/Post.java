@@ -4,5 +4,11 @@ public class Post {
     public String passport;
     public String patronomyc;
     public String phone;
-    public String subscription;
+    public boolean subscription;
+    public FormDate birthDay;
+
+/*    public int day;
+    public int month;
+    public long year;*/
 }
+
